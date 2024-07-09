@@ -90,3 +90,26 @@ resource "azurerm_linux_virtual_machine" "my_linux_vm" {
     version = "latest"
   }
 }
+
+resource "local_file" "private_key_file" {
+  content = tls_private_key.my_key_pair.private_key_pem 
+  filename = "./key.pem"
+}
+
+resource "null_resource" "change_private_key_file_permission" {
+   provisioner "local-exec" {
+   	command = "chmod 400 ./key.pem"
+   }
+   depends_on = [
+	local_file.private_key_file
+   ]
+}
+
+output "public_ip_ddress" {
+  value = azurerm_linux_virtual_machine.my_linux_vm.public_ip_address
+}
+
+output "private_key" {
+  value = tls_private_key.my_key_pair.private_key_pem
+  sensitive = true
+}
