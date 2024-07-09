@@ -21,3 +21,11 @@ provider "azurerm" {
 	subscription_id = "82dfc44c-fa64-4e95-a9a9-2777d9258514"
 	features {}
 }
+
+provider "local" {
+
+}
+
+provider "null" {
+
+}
