@@ -47,6 +47,8 @@ ssh -i ./key azureuser@<your-azure-ubuntu-vm-public-ip>
 
 sudo apt update
 sudo apt install docker
+sudo apt install docker.io
+
 sudo su -
 docker run -d --name nginx --hostname nginx -p 80:80 nginx:latest
 docker ps
