@@ -41,3 +41,25 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a6cd6991-ee0f-4278-baa4-86d354c64ad5)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8df1cf3d-c511-4ad8-8021-8a65108ae33c)
 
+## Lab - Install docker and create a nginx container in the azure ubuntu VM
+```
+ssh -i ./key azureuser@<your-azure-ubuntu-vm-public-ip>
+
+sudo apt update
+sudo apt install docker
+sudo su -
+docker run -d --name nginx --hostname nginx -p 80:80 nginx:latest
+docker ps
+curl http://localhost:80
+```
+
+Now, you need to run the updated the terraform script under the Day2/create-azure-vm-with-ubuntu-os
+```
+terraform init
+terraform apply --auto-approve
+```
+
+Then, you may try accessing the public ip of your ubuntu VM from any web browser on your mobile or any pc
+```
+http://<your-azure-ubuntu-public-ip>:80
+```
