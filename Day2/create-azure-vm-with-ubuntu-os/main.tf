@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "jegan_rg" {
 }
 
 resource "azurerm_network_security_group" "firewall" {
-  name                = "firewqll"
+  name                = "firewall"
   location            = azurerm_resource_group.jegan_rg.location
   resource_group_name = azurerm_resource_group.jegan_rg.name
 
@@ -16,6 +16,17 @@ resource "azurerm_network_security_group" "firewall" {
 	protocol = "Tcp"
 	source_port_range = "*"
 	destination_port_range = "22"
+	source_address_prefix = "*"
+	destination_address_prefix = "*"
+  }
+  security_rule {
+	name = "AllowPing"
+	priority = 310
+	direction = "Inbound"
+	access  = "Allow"
+	protocol = "Icmp"
+	source_port_range = "*"
+	destination_port_range = "*"
 	source_address_prefix = "*"
 	destination_address_prefix = "*"
   }
@@ -42,6 +53,12 @@ resource "azurerm_subnet" "subnet1" {
 	virtual_network_name = azurerm_virtual_network.network.name 
 	address_prefixes = [ "10.20.1.0/24" ]
 }
+
+resource "azurerm_subnet_network_security_group_association" "apply_firewall_rules_on_subnet" {
+	subnet_id = azurerm_subnet.subnet1.id
+	network_security_group_id = azurerm_network_security_group.firewall.id
+}
+
 
 resource "azurerm_network_interface" "my_network_card" {
   name = "my-network-card"
