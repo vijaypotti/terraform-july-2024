@@ -79,3 +79,14 @@ kubectl describe service/nginx -n jegan
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/e22e4cdf-b118-4243-8aac-d60142b692f2)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7f260b84-1b20-484b-b1e8-d4fe0bae2138)
+
+Make sure to destroy the kubernetes cluster, once you are done with this exercise
+```
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/561d4d34-c863-45c7-8a0d-7b99084f4e0e)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/d09d6e86-99c5-4bad-877d-11730d8c49c5)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/444d0f22-8588-4388-831a-c8919b222125)
+
