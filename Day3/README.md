@@ -1,4 +1,4 @@
-# Day 3
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/9423fd10-5c08-4db4-902f-02f43d4ef112)# Day 3
 
 ## Info - Kubernetes Overview
 <pre>
@@ -126,3 +126,11 @@ Connecting to Windows VM via Remina using RDP
 ```
 az vm list-vm-resize-options -g tektutor-resource-group -n my-windows-vm
 ```
+
+## Lab - Incase you lost the terraform.tfstate and terraform.tfstate.back file
+```
+terraform import azurerm_resource_group.tektutor_resource_group \
+/subscriptions/82dfc44c-fa64-4e95-a9a9-2777d9258514/resourceGroups/tektutor-resource-group
+```
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/baa67562-8ace-47e6-bcba-9d370342037e)
