@@ -37,7 +37,7 @@ Installing the kubectl client tool
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
 
-You need to save the kube-config in your home directory
+You need to save the kubeconfig in your home directory
 ```
 mkdir -p /home/rps/.kube
 terraform output kube_config
