@@ -120,3 +120,9 @@ Connecting to Windows VM via Remina using RDP
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a1c55711-0104-4d57-90f1-399fa36e9001)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/3004487b-f9a4-499a-a753-202eb55ce351)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/f6c751d0-172e-4099-b5a4-6a31446cc9a4)
+
+
+## Lab - Find out all azure machine sizes(configuration) area available for a specific location
+```
+az vm list-vm-resize-options -g tektutor-resource-group -n my-windows-vm
+```
