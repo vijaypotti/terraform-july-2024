@@ -1,4 +1,4 @@
-# Day 3
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/9423fd10-5c08-4db4-902f-02f43d4ef112)# Day 3
 
 ## Info - Kubernetes Overview
 <pre>
@@ -108,3 +108,48 @@ terraform apply --auto-approve
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/5d6a327e-1750-448f-9b4b-1d6c5955b01b)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/faa4b938-fa6c-4e64-b099-974d778c8745)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/06a0552d-6008-410e-bb1e-dcc1e66f658e)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/c0e4d361-ad15-4a96-864e-35f62a434aa7)
+
+Connecting to Windows VM via Remina using RDP
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/3e4f8031-26a5-4479-a5de-022759135cbd)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/32b1db17-47aa-4312-848c-8355f4ec4166)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/207f1247-3324-46c8-b989-ce2ba36c574e)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/0e50ef85-cc0c-4c1d-b429-f664157ab3a5)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/98f8e312-e40a-4491-89ed-c15b50d6387f)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a1c55711-0104-4d57-90f1-399fa36e9001)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/3004487b-f9a4-499a-a753-202eb55ce351)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/f6c751d0-172e-4099-b5a4-6a31446cc9a4)
+
+
+## Lab - Find out all azure machine sizes(configuration) area available for a specific location
+```
+az vm list-vm-resize-options -g tektutor-resource-group -n my-windows-vm
+```
+
+## Lab - Incase you lost the terraform.tfstate and terraform.tfstate.back file
+```
+terraform import azurerm_resource_group.tektutor_resource_group \
+/subscriptions/82dfc44c-fa64-4e95-a9a9-2777d9258514/resourceGroups/tektutor-resource-group
+```
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/baa67562-8ace-47e6-bcba-9d370342037e)
+
+
+## Lab - Provisiong 3 virtual machines within same region one vm per availability zone using Virtual Machine Scale Set
+```
+cd ~/terraform-july-2024
+git pull
+cd Day3/virtual-machine-scale-sets
+
+cat variables.tf
+cat providers.tf
+cat main.tf
+
+terraform init
+terraform approve --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ef26cbcc-5537-4b7e-8fdb-7425098dbfab)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/dffd5095-b5e0-4601-9ae1-7833ef1e26ce)
