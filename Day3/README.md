@@ -32,3 +32,23 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/f72e552b-5e5c-409f-b83b-33c606441ea8)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/5a9985a4-4a31-4879-878a-88cf1c35d04e)
 
+Installing the kubectl client tool
+```
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+
+You need to save the kube-config in your home directory
+```
+mkdir -p /home/rps/.kube
+terraform output kube_config
+```
+You need to save the displayed kube_config output to a file name config under /home/rps/.kube/config.
+
+Make sure you have deleted that "<<EOT" and "EOT" lines
+
+Post installation you can check
+```
+kubectl get nodes
+```
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/dccbffcf-8f99-4799-ab59-3e72683d6d9c)
