@@ -110,3 +110,13 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/faa4b938-fa6c-4e64-b099-974d778c8745)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/06a0552d-6008-410e-bb1e-dcc1e66f658e)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/c0e4d361-ad15-4a96-864e-35f62a434aa7)
+
+Connecting to Windows VM via Remina using RDP
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/3e4f8031-26a5-4479-a5de-022759135cbd)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/32b1db17-47aa-4312-848c-8355f4ec4166)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/207f1247-3324-46c8-b989-ce2ba36c574e)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/0e50ef85-cc0c-4c1d-b429-f664157ab3a5)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/98f8e312-e40a-4491-89ed-c15b50d6387f)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a1c55711-0104-4d57-90f1-399fa36e9001)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/3004487b-f9a4-499a-a753-202eb55ce351)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/f6c751d0-172e-4099-b5a4-6a31446cc9a4)
