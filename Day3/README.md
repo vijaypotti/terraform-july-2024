@@ -90,3 +90,21 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/d09d6e86-99c5-4bad-877d-11730d8c49c5)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/444d0f22-8588-4388-831a-c8919b222125)
 
+
+## Lab - Creating a windows virtual machine in azure using Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day3/create-windows-vm-in-azure
+
+cat providers.tf
+cat main.tf
+
+terraform init
+terraform validate
+terraform apply --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/5d6a327e-1750-448f-9b4b-1d6c5955b01b)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/faa4b938-fa6c-4e64-b099-974d778c8745)
