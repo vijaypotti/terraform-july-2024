@@ -17,3 +17,9 @@
 - App Service can scale up/down resources manually/automatically based on metrics
 - Supports Containerized applications 
 </pre>
+
+## Info - App Service Plan Overview
+<pre>
+- We need an App Service Plan in order to create App Service
+- App Service Plan defines the compute resources required for your application to run  
+</pre>
