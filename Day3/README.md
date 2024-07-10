@@ -55,3 +55,24 @@ kubectl get nodes
 ```
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/dccbffcf-8f99-4799-ab59-3e72683d6d9c)
+
+
+## Lab - Deploying nginx web server into Kubernetes cluster
+Replace 'jegan' with your name in the command below
+```
+kubectl create namespace jegan
+kubectl get namespaces | grep jegan
+```
+
+Deploy nginx
+```
+kubectl create deployment nginx --image=nginx:latest --replicas=3 -n jegan
+kubectl get pods -n jegan
+```
+
+Create a service for the nginx deployment
+```
+kubectl expose deploy/nginx --type=LoadBalancer --port=80 -n jegan
+kubectl get service -n jegan
+kubectl describe service/nginx -n jegan
+```
