@@ -35,6 +35,9 @@ Expected output
 Installing the kubectl client tool
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin
 ```
 
 You need to save the kubeconfig in your home directory
