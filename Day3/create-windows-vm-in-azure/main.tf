@@ -111,7 +111,7 @@ resource "azurerm_windows_virtual_machine" "my_windows_vm" {
 	resource_group_name = azurerm_resource_group.tektutor_resource_group.name
 	location = azurerm_resource_group.tektutor_resource_group.location
 
-	size		= "Stanadard_F2"
+	size		= "Standard_F2"
 	admin_username  = "azureuser"
 	admin_password  = "password@123"
 
