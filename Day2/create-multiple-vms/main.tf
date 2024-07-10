@@ -186,7 +186,7 @@ resource "null_resource" "install_nginx_web_server_on_azure_vms" {
 		type = "ssh"
 		user = "azureuser"
 		private_key = tls_private_key.my_key_pair.private_key_pem
-		host = azurerm_linux_virtual_machine.my_linux_vm[count.index].public_ip.address
+		host = azurerm_linux_virtual_machine.my_linux_vm[count.index].public_ip_address
 	}
 
 	provisioner "remote-exec" {
