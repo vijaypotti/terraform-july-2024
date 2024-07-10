@@ -134,3 +134,22 @@ terraform import azurerm_resource_group.tektutor_resource_group \
 ```
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/baa67562-8ace-47e6-bcba-9d370342037e)
+
+
+## Lab - Provisiong 3 virtual machines within same region one vm per availability zone using Virtual Machine Scale Set
+```
+cd ~/terraform-july-2024
+git pull
+cd Day3/virtual-machine-scale-sets
+
+cat variables.tf
+cat providers.tf
+cat main.tf
+
+terraform init
+terraform approve --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ef26cbcc-5537-4b7e-8fdb-7425098dbfab)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/dffd5095-b5e0-4601-9ae1-7833ef1e26ce)
