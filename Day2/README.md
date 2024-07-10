@@ -64,3 +64,29 @@ Then, you may try accessing the public ip of your ubuntu VM from any web browser
 ```
 http://<your-azure-ubuntu-public-ip>:80
 ```
+
+## Lab - Creating multiple VMs in azure using Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day2/create-multiple-vms
+terraform init
+terraform apply --auto-approve
+```
+
+Expected output
+
+
+Once you are done with this lab exercise, delete the resources 
+```
+cd ~/terraform-july-2024
+git pull
+cd Day2/create-multiple-vms
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7fcb2790-37c4-4906-8d66-85d59e683c8f)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/af80af4a-72d8-4dc0-8d2d-a4480ca9c827)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ae9cc36b-0605-4894-b427-5e458ac4ac89)
+
