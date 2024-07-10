@@ -76,3 +76,6 @@ kubectl expose deploy/nginx --type=LoadBalancer --port=80 -n jegan
 kubectl get service -n jegan
 kubectl describe service/nginx -n jegan
 ```
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/e22e4cdf-b118-4243-8aac-d60142b692f2)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7f260b84-1b20-484b-b1e8-d4fe0bae2138)
