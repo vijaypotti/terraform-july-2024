@@ -108,3 +108,5 @@ terraform apply --auto-approve
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/5d6a327e-1750-448f-9b4b-1d6c5955b01b)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/faa4b938-fa6c-4e64-b099-974d778c8745)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/06a0552d-6008-410e-bb1e-dcc1e66f658e)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/c0e4d361-ad15-4a96-864e-35f62a434aa7)
