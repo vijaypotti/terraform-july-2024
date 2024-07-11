@@ -68,3 +68,13 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a31f169f-a76c-4053-9858-fecf67481300)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ccdcd8d3-c364-437f-9edc-13f9e9af989a)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8b3a7368-b3fa-43b0-a382-8869e4805270)
+
+Once you are done with this lab, make sure you destroy the resources
+```
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7289bb65-71c4-48ff-bcd9-0b87e61176f4)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/2fbef999-8d92-40a1-b69a-8b4c07a70735)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8e92be0c-17e6-4b3b-a690-0d90e8c4577b)
