@@ -24,6 +24,7 @@ resource "azurerm_subnet" "subnet" {
   depends_on = [ azurerm_virtual_network.virtual_network ]
 }
 
+/*
 resource "azurerm_public_ip" "public_ip" {
   count = var.vm_count
   name = "vm-public-ip-${count.index}"
@@ -33,8 +34,8 @@ resource "azurerm_public_ip" "public_ip" {
   allocation_method = "Dynamic"
 
   depends_on = [ azurerm_resource_group.tektutor_resource_group ]
-  
 }
+*/
 
 resource "azurerm_network_interface" "network_card" {
   name = "nework-card-${count.index}"
@@ -48,7 +49,7 @@ resource "azurerm_network_interface" "network_card" {
     name = "internal"
     subnet_id  = azurerm_subnet.subnet.id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id = azurerm_public_ip.public_ip[count.index].id
+#    public_ip_address_id = azurerm_public_ip.public_ip[count.index].id
   }
    
   depends_on = [ azurerm_subnet.subnet ]
@@ -187,9 +188,9 @@ resource "null_resource" "install_nginx_web_server_on_azure_vms" {
 }
 
 
-output "public_ip_address" {
-  value = azurerm_linux_virtual_machine.linux_vm[*].public_ip_address
-}
+//output "public_ip_address" {
+//  value = azurerm_linux_virtual_machine.linux_vm[*].public_ip_address
+//}
 
 output "private_key" {
 

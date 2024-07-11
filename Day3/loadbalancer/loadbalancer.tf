@@ -56,6 +56,8 @@ resource "azurerm_lb_rule" "rule_for_forwarding_lb_port_80_traffic_to_backend_vm
    frontend_ip_configuration_name = "PublicIPAddress"
 
    depends_on = [ azurerm_lb_backend_address_pool.lb_backend ]
-
 }
 	
+output "lb_public_ip_address" {
+  value = azurerm_public_ip.lb_public_ip.ip_address 
+}
