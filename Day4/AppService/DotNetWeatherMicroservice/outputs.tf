@@ -3,5 +3,5 @@ output "linux_web_app_name" {
 }
 
 output "app_url" {
-  value = "https://${azurerm_linux_web_app.tektutor.default_hostname}"
+  value = "https://${azurerm_linux_web_app.tektutor.default_hostname}/weatherforecast"
 }
