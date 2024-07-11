@@ -174,3 +174,4 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/77708153-35fb-4214-9bc4-68e45240f0ef)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8b312580-eacf-4d27-a890-a8b05f789ffb)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/0dbc7e51-0c33-42de-b879-a2319aae4854)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/25286a96-569e-44db-96d5-1c13d098e339)
