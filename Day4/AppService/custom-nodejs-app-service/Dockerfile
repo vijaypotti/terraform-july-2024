@@ -6,6 +6,6 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | b
 RUN su root 
 RUN export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm install 20 
 
-COPY app.js .
+COPY . .
 
-CMD [ "node", "./app.js" ]
+CMD [ "/root/.nvm/versions/node/v20.15.1/bin/node", "./app.js" ]

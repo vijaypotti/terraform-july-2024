@@ -28,7 +28,7 @@ resource "azurerm_linux_web_app" "tektutor" {
   site_config {
     application_stack {
       docker_image     = "tektutor/nodejs"
-      docker_image_tag = "1.0"
+      docker_image_tag = "2.0"
     }
   }
 }

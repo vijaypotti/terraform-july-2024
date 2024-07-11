@@ -1,15 +1,10 @@
-const http = require('node:http');
+var express = require('express');
+var app = express();
 
-const hostname = "0.0.0.0";
-const port = 8080;
-
-const server = http.createServer( ( request, response ) => {
-
-	response.statusCode = 200;
-	response.setHeader('Content-Type', "text/plain');
-	response.end ( "Hello NodeJS Azure App Service !");
+app.get('/', ( req, res, next ) => {
+   res.json({"message": "Hello NodeJS App Service !" });	
 });
 
-server.listen( port, hostname, () => {
-  console.log("Server running at http://${hostname}:${port}/'};
+app.listen(8080, () => {
+   console.log("Server is running at port 8080");
 });
