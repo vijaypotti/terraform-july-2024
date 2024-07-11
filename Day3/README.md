@@ -175,3 +175,13 @@ Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8b312580-eacf-4d27-a890-a8b05f789ffb)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/0dbc7e51-0c33-42de-b879-a2319aae4854)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/25286a96-569e-44db-96d5-1c13d098e339)
+
+Once you are done with this exercise, don't forget to delete the resources
+```
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7b9cd8ac-5cc5-455e-88a1-bf1c5df0eeb7)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/726b7fa7-998e-45fd-99eb-9cf3ae7bebc9)
+
