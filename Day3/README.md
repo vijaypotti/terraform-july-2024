@@ -153,3 +153,19 @@ terraform approve --auto-approve
 Expected output
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ef26cbcc-5537-4b7e-8fdb-7425098dbfab)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/dffd5095-b5e0-4601-9ae1-7833ef1e26ce)
+
+## Lab - Creating 3 VMs in Azure and put them behind Azure loadbalancer using Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day3/loadbalancer
+terraform init
+terraform validate
+terraform apply --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/9238f4d2-6f99-4a81-aead-9d4c698f4143)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/f53e0366-a315-450b-88a9-8c9aaa1404fd)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/029ba437-368d-4fae-b02c-0bf186cabe6d)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/aed49ea5-9d55-4493-956a-d4cfb878daea)
