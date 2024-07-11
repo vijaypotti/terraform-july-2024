@@ -33,7 +33,6 @@ terraform init
 terraform validate
 ```
 
-Errors reported
+Fix the below errors
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/c2917926-d255-49a9-a130-343e3af96b65)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a403bfab-c711-4561-815d-a2ca31ba9dea)
-
