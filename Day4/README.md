@@ -46,4 +46,4 @@ Fix the below errors
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/1e216186-7667-4c91-8edb-76589b91cf93)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/08edb75c-0718-47b5-b27d-d0c56bdf2249)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8dbd9213-35a9-461e-acf6-255ed8ecc625)
-![Uploading image.png…]()
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/af09de35-b4cb-463d-af4c-9593ed46b2f0)
