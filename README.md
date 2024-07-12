@@ -4,6 +4,11 @@
 
 <pre>
 https://rpsconsulting116.examly.io/contest/publicU2FsdGVkX1+fIQZxVWydvQ69DPtWb0bQ2LWqdTRGiSKTnMcPqJuTrP0IZiUFHDxRHyYL0bZfUaFoVGsukL9EBw== 
+</pre> 
+
+## Training Feedback - kindly complete this
+<pre
+https://survey.zohopublic.com/zs/xs0aau  
 </pre>  
 
 ## Breaks
