@@ -3,7 +3,7 @@
 ## Post test link
 
 <pre>
-https://rpsconsulting116.examly.io/contest/publicU2FsdGVkX1+fIQZxVWydvQ69DPtWb0bQ2LWqdTRGiSKTnMcPqJuTrP0IZiUFHDxRHyYL0bZfUaFoVGsukL9EBw== 
+https://rpsconsulting116.examly.io/contest/public?U2FsdGVkX1+fIQZxVWydvQ69DPtWb0bQ2LWqdTRGiSKTnMcPqJuTrP0IZiUFHDxRHyYL0bZfUaFoVGsukL9EBw==
 </pre> 
 
 ## Training Feedback - kindly complete this
