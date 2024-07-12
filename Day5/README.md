@@ -43,3 +43,18 @@ Expected output
 ![image](https://github.com/user-attachments/assets/ea7f32e8-27ce-4b17-aaef-95b2413b1d5e)
 ![image](https://github.com/user-attachments/assets/7f56f13b-eaa8-404f-acbe-756ff1c7590f)
 
+## Lab - Variable Validation 
+```
+cd ~/terraform-july-2024
+git pull
+cd Day5/variable-validation
+pwd
+terraform init
+terraform apply --auto-approve
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/2e22e594-e15b-4cb2-a4e1-fbca5f345913)
+![image](https://github.com/user-attachments/assets/e60f1a40-c2e3-494a-9a17-8e21b8b99099)
+![image](https://github.com/user-attachments/assets/cd72112a-fc72-4cac-964e-0e741f604162)
+![image](https://github.com/user-attachments/assets/3d0ceb64-42a9-40d0-8fd2-d6bf73a15903)
