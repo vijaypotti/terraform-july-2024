@@ -47,3 +47,34 @@ Fix the below errors
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/08edb75c-0718-47b5-b27d-d0c56bdf2249)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8dbd9213-35a9-461e-acf6-255ed8ecc625)
 ![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/af09de35-b4cb-463d-af4c-9593ed46b2f0)
+
+
+## Lab - Deploying Wordpress and mysql as an App service using Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day4/AppService/docker-compose
+terraform init
+terrform apply --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/e3c830a4-29fa-49e6-aa2a-ca3684aa063d)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/63d94d78-8cb6-4402-b4a5-99316a6c1fdd)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/16523f7a-5948-4a80-9e59-29a253bfc748)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/5a874ed9-5826-450e-a471-874c7ce1ea86)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/d0d7c18f-fc62-45d1-ad57-7ae4346eeb0d)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/d5cf266f-3d30-4ffd-892a-cbc0d5b845ee)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/a31f169f-a76c-4053-9858-fecf67481300)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/ccdcd8d3-c364-437f-9edc-13f9e9af989a)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8b3a7368-b3fa-43b0-a382-8869e4805270)
+
+Once you are done with this lab, make sure you destroy the resources
+```
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/7289bb65-71c4-48ff-bcd9-0b87e61176f4)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/2fbef999-8d92-40a1-b69a-8b4c07a70735)
+![image](https://github.com/tektutor/terraform-july-2024/assets/12674043/8e92be0c-17e6-4b3b-a690-0d90e8c4577b)
