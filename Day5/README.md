@@ -254,6 +254,21 @@ Select GitHub ( Third option )
 ![image](https://github.com/user-attachments/assets/87de10c5-e2b0-40d1-800f-bc42a1fbabf2)
 ![image](https://github.com/user-attachments/assets/60fc0fea-ffc8-402a-9f7a-b74fc5e31df7)
 Click "Authorize Azure Piplines"
+![image](https://github.com/user-attachments/assets/99be695f-2d5a-4085-a804-594b00b4ab81)
+Select "Use your password"
+![image](https://github.com/user-attachments/assets/da4f82e6-4b26-40ef-822b-1fb9e13d8cad)
+Click "Confirm" button
+![image](https://github.com/user-attachments/assets/059f5829-5577-4e8a-832f-9d5a42ec0945)
+Select "tektutor/terraform-july-2024"
+![image](https://github.com/user-attachments/assets/6db0aa8a-77cb-4e04-af02-245ad37ff62a)
+Approve and Install
+![image](https://github.com/user-attachments/assets/f1c0a5e0-9668-4605-a02b-4aa5d4aaec09)
+![image](https://github.com/user-attachments/assets/8dc3c7cc-0dbb-465e-b02b-957f8ff6fc10)
+![image](https://github.com/user-attachments/assets/84a8f12a-4f72-46d0-ae96-1e3ca751fd12)
+![image](https://github.com/user-attachments/assets/13aa46de-7e0d-4f66-bd68-b71d4709d2e5)
+![image](https://github.com/user-attachments/assets/e1bf6289-e439-4c0d-ade6-5150c33f8ae5)
+Select "show more"
+Se
 
 
 
@@ -287,8 +302,8 @@ Copy the credentials details in some file for your future reference.
 4. Install the below from terminal to configure the Azure Ubuntu VM as a self-hosted Azure Pipline agent
 ```
 mkdir myagent && cd myagent
-wget https://vstsagentpackage.azureedge.net/agent/2.213.2/vsts-agent-linux-x64-2.213.2.tar.gz
-tar zxvf vsts-agent-linux-x64-2.213.2.tar.gz
+wget https://vstsagentpackage.azureedge.net/agent/3.242.0/vsts-agent-linux-x64-3.242.0.tar.gz
+tar zxvf vsts-agent-linux-x64-3.242.0.tar.gz
 ls
 ./config.sh
 ./run.sh

@@ -1,5 +1,16 @@
 # Terraform July 2024 ( 8-12th July 2024 )
 
+## Post test link
+
+<pre>
+https://rpsconsulting116.examly.io/contest/public?U2FsdGVkX1+fIQZxVWydvQ69DPtWb0bQ2LWqdTRGiSKTnMcPqJuTrP0IZiUFHDxRHyYL0bZfUaFoVGsukL9EBw==
+</pre> 
+
+## Training Feedback - kindly complete this
+<pre>
+https://survey.zohopublic.com/zs/xs0aau  
+</pre>  
+
 ## Breaks
 <pre>
 Tea break - 11:15 am to 11:30 am
