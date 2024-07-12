@@ -260,6 +260,15 @@ Select "Use your password"
 Click "Confirm" button
 ![image](https://github.com/user-attachments/assets/059f5829-5577-4e8a-832f-9d5a42ec0945)
 Select "tektutor/terraform-july-2024"
+![image](https://github.com/user-attachments/assets/6db0aa8a-77cb-4e04-af02-245ad37ff62a)
+Approve and Install
+![image](https://github.com/user-attachments/assets/f1c0a5e0-9668-4605-a02b-4aa5d4aaec09)
+![image](https://github.com/user-attachments/assets/8dc3c7cc-0dbb-465e-b02b-957f8ff6fc10)
+![image](https://github.com/user-attachments/assets/84a8f12a-4f72-46d0-ae96-1e3ca751fd12)
+![image](https://github.com/user-attachments/assets/13aa46de-7e0d-4f66-bd68-b71d4709d2e5)
+![image](https://github.com/user-attachments/assets/e1bf6289-e439-4c0d-ade6-5150c33f8ae5)
+Select "show more"
+Se
 
 
 
