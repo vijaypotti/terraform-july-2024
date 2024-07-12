@@ -1,5 +1,22 @@
 # Day 5
 
+## Lab - Using for loop in Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day5/loops/for
+pwd
+terraform init
+terraform apply --auto-approve
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/b0fd1980-6759-44c9-b230-0205d173616a)
+![image](https://github.com/user-attachments/assets/8c265b42-7add-4de8-abb1-e80183e87be6)
+![image](https://github.com/user-attachments/assets/4ff19cd6-012c-4a7e-9743-794a8949ae87)
+
+
+
 ## Lab - Invoking Ansible Playbook via Terraform to configure Terraform provisioned Azure Virtual Machines
 ```
 cd ~/terraform-july-2024
