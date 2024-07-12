@@ -244,6 +244,16 @@ Click "Continue" button
 ![image](https://github.com/user-attachments/assets/2b81c74c-b226-44a9-9520-015d7e5607b0)
 ![image](https://github.com/user-attachments/assets/ee808948-fc42-4350-8f75-f5385effdf5c)
 ![image](https://github.com/user-attachments/assets/3a739489-b49a-470a-a428-ad8134d1edee)
+Click on "Create Project"
+![image](https://github.com/user-attachments/assets/e27d1ff3-456e-4319-af9e-ddb87ab4f453)
+Click on Pipeline
+![image](https://github.com/user-attachments/assets/cfbd45f2-a77c-4153-9cf1-d85cbd7b4a55)
+Click "Create Pipeline"
+![image](https://github.com/user-attachments/assets/b2441238-bfb3-42ee-bb08-fa592ed84d51)
+Select GitHub ( Third option )
+![image](https://github.com/user-attachments/assets/87de10c5-e2b0-40d1-800f-bc42a1fbabf2)
+![image](https://github.com/user-attachments/assets/60fc0fea-ffc8-402a-9f7a-b74fc5e31df7)
+Click "Authorize Azure Piplines"
 
 
 
