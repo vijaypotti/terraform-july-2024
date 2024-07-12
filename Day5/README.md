@@ -254,6 +254,12 @@ Select GitHub ( Third option )
 ![image](https://github.com/user-attachments/assets/87de10c5-e2b0-40d1-800f-bc42a1fbabf2)
 ![image](https://github.com/user-attachments/assets/60fc0fea-ffc8-402a-9f7a-b74fc5e31df7)
 Click "Authorize Azure Piplines"
+![image](https://github.com/user-attachments/assets/99be695f-2d5a-4085-a804-594b00b4ab81)
+Select "Use your password"
+![image](https://github.com/user-attachments/assets/da4f82e6-4b26-40ef-822b-1fb9e13d8cad)
+Click "Confirm" button
+![image](https://github.com/user-attachments/assets/059f5829-5577-4e8a-832f-9d5a42ec0945)
+Select "tektutor/terraform-july-2024"
 
 
 
