@@ -109,6 +109,8 @@ Expected output
 ![image](https://github.com/user-attachments/assets/77847221-7052-459e-94c0-c75400cde6cc)
 ![image](https://github.com/user-attachments/assets/14b54b77-048f-47de-bf0a-28ff6c7a7306)
 ![image](https://github.com/user-attachments/assets/3074371c-088a-4bb8-9f71-0dd79f21db83)
+![image](https://github.com/user-attachments/assets/cdc1d36f-bc9e-4029-b97d-4580014715e7)
+
 
 ## Azure App Service Plan SKU
 <pre>
