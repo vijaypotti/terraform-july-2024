@@ -302,8 +302,8 @@ Copy the credentials details in some file for your future reference.
 4. Install the below from terminal to configure the Azure Ubuntu VM as a self-hosted Azure Pipline agent
 ```
 mkdir myagent && cd myagent
-wget https://vstsagentpackage.azureedge.net/agent/2.213.2/vsts-agent-linux-x64-2.213.2.tar.gz
-tar zxvf vsts-agent-linux-x64-2.213.2.tar.gz
+wget https://vstsagentpackage.azureedge.net/agent/3.242.0/vsts-agent-linux-x64-3.242.0.tar.gz
+tar zxvf vsts-agent-linux-x64-3.242.0.tar.gz
 ls
 ./config.sh
 ./run.sh
