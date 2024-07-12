@@ -1,5 +1,42 @@
 # Day 5
 
+## Ansible Overview
+<pre>
+- Ansible is a configuration management tool
+- Agentless
+- Alternatives
+  - Puppet - DSL Puppet Language
+  - Chef - DSL Ruby
+- Easy to install/learn
+- DSL - Domain Specific Language - the language used to automate the configuraiton managent is YAML
+- The servers that are managed by Ansible is called Ansible Node
+- Ansible Nodes
+  - can be an onPrem Server
+  - can be a Virtual Machine in your Datacenter
+  - can be an ec2 instance in AWS
+  - can be an Azure Virtual machine in Azure cloud
+  - can be a docker container
+  - in Unix/Linux/Mac
+    - SSH Server should be installed
+    - Python should be installed
+- Ansible Modules
+  - there are Ansible modules to perform specific tasks
+  - For installing/uninstalling/upgrading softwares in Debian/Ubuntu based Ansible nodes you can use apt ansible module
+  - service module to manage linux services
+  - for linux/unix/mac are implemented as python scripts
+  - for windows are implemented as Powershell scripts
+ansible inventory
+  - connection details to ansible nodes are captured in the inventory file
+    - static inventory
+    - dynamic inventory ( python script )
+ansible playbook
+- automation code which is developed as YAML file that follows a specic sections
+- it invokes many ansible modules in sequence or a specific order, you could also run certains stuffs in parallel
+- is a collection of tasks, each task will invoke one ansible module
+- developed in Python by Michael Deehan 
+- Michael Deehaan started a company by Ansible Inc, through this company he developed Ansible core as an open source project
+</pre>
+
 ## Lab - Using for loop in Terraform
 ```
 cd ~/terraform-july-2024
