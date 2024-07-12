@@ -236,9 +236,15 @@ From your Azure portal, search for "Azure DevOps organizations" and click the sa
 You will see below page now, click on "My Azure DevOps Organizations"
 ![Azure DevOps Organizations](azure2.png)
 ![image](https://github.com/user-attachments/assets/ec69379d-0253-4e0d-bca0-cdf0d20e8859)
-
-
 Click on "Create new organization"
+![image](https://github.com/user-attachments/assets/02b12d77-1944-45c7-a1fe-6241b0fef125)
+Click "Continue" button
+![image](https://github.com/user-attachments/assets/5c970c77-c61b-4ff3-b568-f47b695cb349)
+Click "Continue" button
+![image](https://github.com/user-attachments/assets/2b81c74c-b226-44a9-9520-015d7e5607b0)
+![image](https://github.com/user-attachments/assets/ee808948-fc42-4350-8f75-f5385effdf5c)
+
+
 
 Once you have created your new organization, create a Personal Access Token with Full access and save the token in your system in some text file.  This token will be required to register your self-hosted pipeline agent with your project.
 ![Azure DevOps Organizations](azure3.png)
