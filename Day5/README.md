@@ -33,3 +33,13 @@ Expected output
 ![image](https://github.com/user-attachments/assets/79afafe8-46bc-40bb-b58f-aec90de60ee4)
 ![image](https://github.com/user-attachments/assets/3d6f6d43-7246-46b3-a0dd-d7160618439b)
 ![image](https://github.com/user-attachments/assets/7a071799-520e-4d0e-aa00-ca2f6a97c1fb)
+
+Once you are done with this exercise, you may dicard the resources
+```
+terraform destroy --auto-approve
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/ea7f32e8-27ce-4b17-aaef-95b2413b1d5e)
+![image](https://github.com/user-attachments/assets/7f56f13b-eaa8-404f-acbe-756ff1c7590f)
+
