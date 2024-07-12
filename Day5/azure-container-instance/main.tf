@@ -1,14 +1,14 @@
-resource "azurerm_resource_group" "tektutorlabs" {
-  name     = "tektutorlabs-resources"
-  location = "australiaeast"
+resource "azurerm_resource_group" "teklabs" {
+  name     = "tektutor-resources"
+  location = "southindia"
 }
 
-resource "azurerm_container_group" "tektutorlabs" {
+resource "azurerm_container_group" "teklabs" {
   name                = "tektutorlabs"
-  location            = azurerm_resource_group.tektutorlabs.location
-  resource_group_name = azurerm_resource_group.tektutorlabs.name
+  location            = azurerm_resource_group.teklabs.location
+  resource_group_name = azurerm_resource_group.teklabs.name
   ip_address_type     = "Public"
-  dns_name_label      = "aci-label"
+  dns_name_label      = "tektutor-labs-dns"
   os_type             = "Linux"
 
   container {
