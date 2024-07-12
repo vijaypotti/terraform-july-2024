@@ -243,6 +243,7 @@ Click "Continue" button
 Click "Continue" button
 ![image](https://github.com/user-attachments/assets/2b81c74c-b226-44a9-9520-015d7e5607b0)
 ![image](https://github.com/user-attachments/assets/ee808948-fc42-4350-8f75-f5385effdf5c)
+![image](https://github.com/user-attachments/assets/3a739489-b49a-470a-a428-ad8134d1edee)
 
 
 
