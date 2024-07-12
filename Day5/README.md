@@ -234,8 +234,8 @@ From your Azure portal, search for "Azure DevOps organizations" and click the sa
 ![Azure DevOps Organizations](azure1.png)
 
 You will see below page now, click on "My Azure DevOps Organizations"
-![image](https://github.com/user-attachments/assets/ec69379d-0253-4e0d-bca0-cdf0d20e8859)
 ![Azure DevOps Organizations](azure2.png)
+![image](https://github.com/user-attachments/assets/ec69379d-0253-4e0d-bca0-cdf0d20e8859)
 
 
 Click on "Create new organization"
