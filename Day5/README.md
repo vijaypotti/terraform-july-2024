@@ -15,7 +15,20 @@ Expected output
 ![image](https://github.com/user-attachments/assets/8c265b42-7add-4de8-abb1-e80183e87be6)
 ![image](https://github.com/user-attachments/assets/4ff19cd6-012c-4a7e-9743-794a8949ae87)
 
+## Lab - Using for-each loop in Terraform
+```
+cd ~/terraform-july-2024
+git pull
+cd Day5/loops/for-each
+pwd
+terraform init
+terraform apply --auto-approve
+```
 
+Expected output
+![image](https://github.com/user-attachments/assets/75a86ba8-c86a-48be-8963-c79a95c556d6)
+![image](https://github.com/user-attachments/assets/c4323c71-c7cd-4cc5-9f70-89ee7893c79b)
+![image](https://github.com/user-attachments/assets/c5b817b1-f6ab-44a1-bfab-9dbd36c3f34b)
 
 ## Lab - Invoking Ansible Playbook via Terraform to configure Terraform provisioned Azure Virtual Machines
 ```
