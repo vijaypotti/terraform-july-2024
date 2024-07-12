@@ -58,3 +58,12 @@ Expected output
 ![image](https://github.com/user-attachments/assets/e60f1a40-c2e3-494a-9a17-8e21b8b99099)
 ![image](https://github.com/user-attachments/assets/cd72112a-fc72-4cac-964e-0e741f604162)
 ![image](https://github.com/user-attachments/assets/3d0ceb64-42a9-40d0-8fd2-d6bf73a15903)
+
+Once you are done with this exercise, you may discard the resources
+```
+terraform destroy --auto-approve
+```
+Expected output
+![image](https://github.com/user-attachments/assets/bbe2805e-d24e-41d2-85ce-1f697699a8d6)
+![image](https://github.com/user-attachments/assets/1beaa3fd-8b4d-4edd-8ac6-b44e77acd0a3)
+![Uploading image.png…]()
